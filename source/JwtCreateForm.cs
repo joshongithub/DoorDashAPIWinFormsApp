@@ -52,7 +52,7 @@ namespace DoorDashAPIWinFormsApp
 
         private void UpdateJWT()
         {
-            // Do not run update if user provided values are note valid.
+            // Do not run update if user provided values are not valid.
             // Note, function doesn't test if values provided are correct size. 
             if (!UserProvidedValuesValid())
             {
